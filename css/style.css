@@ -1,0 +1,1160 @@
+
+
+.header-top {
+    background-color: #C2D3B2;
+    height: 42px;
+}
+
+
+
+.header-item {
+    max-width: 1170px;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.city {
+    display: flex;
+    height: 100%;
+    align-items: center;
+}
+.city img {
+    margin-right: 14px;
+}
+
+.city span {
+    font-family: 'Cera Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    color: white;
+}
+
+.city span:hover {
+    text-decoration-line: underline;
+}
+
+.header-items {
+    display: flex;
+}
+
+.catalog {
+    align-items: center;
+}
+
+.catalog a {
+    font-family: 'Cera Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    color: white;
+    text-decoration: none;
+}
+
+.delivery {
+    align-items: center;
+    margin-left: 40px;
+}
+
+.delivery a {
+    font-family: 'Cera Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    color: white;
+    text-decoration: none;
+}
+
+.phone {
+    align-items: center;
+    margin-left: 40px;
+}
+
+.phone a {
+    font-family: 'Cera Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    color: white;
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+
+/* -------second header---------- */
+
+
+.header-bottom {
+    height: 100px;
+    align-items: center;
+    
+}
+
+.header-container {
+    max-width: 1170px;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+
+
+
+
+
+/* Меню хэдэр */
+
+.nav-bar {
+    margin: auto;
+}
+
+
+.nav-bar nav ul{
+    display: flex;
+}
+
+.nav-bar nav ul li {
+    list-style-type: none;
+}
+
+.nav-bar nav ul li a {
+    text-decoration: none;
+    font-family: 'Cera Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 29px;
+    text-transform: uppercase;
+    color: #636363;
+    padding-bottom: 2px;
+}
+
+.nav-bar nav ul li {
+    margin-right: 35px;
+} 
+
+.nav-bar nav li :last-child {
+    margin: 0;
+}
+
+.hamb {
+    display: none;
+}
+
+.popup {
+    display: none;
+}
+
+.text-mobile-nav {
+    display: none;
+}
+
+
+.header-logo {
+    margin: 0;
+}
+
+/* Меню иконки хэдэр */
+
+.nav-items-left img, .nav-items-right img {
+    margin-right: 15px;
+}
+
+.nav-items-right img:last-child {
+    margin: 0;
+}
+
+
+
+
+
+/* Путь страницы */
+
+.header-nav {
+    height: 45px;
+    width: 100%;
+    border-top: 1px solid #B19E86;
+    border-bottom: 1px solid #B19E86;
+}
+
+.header-rout {
+    height: 100%;
+    max-width: 1170px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    padding: 0 15px;
+}
+
+.text-rout a{
+    text-decoration: none;
+    font-family: 'Cera Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    color: #898989;
+}
+
+.text-rout span {
+    font-family: 'Cera Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    color: #898989;
+}
+
+
+
+
+
+
+
+
+/* ---------------PRODUCT CARD--------------- */
+
+
+
+
+
+.product {
+    width: 100%;
+    height: auto;
+    margin-bottom: 100px;
+}
+
+.product-container {
+    max-width: 1170px;
+    height: auto;
+    margin: 50px auto;
+    display: flex;
+    padding: 0 15px;
+}
+
+.product-left-side {
+    display: flex;
+    margin-right: 8.5%;
+}
+
+.product-img {
+    display: flex;
+}
+
+.img-column img {
+    margin-top: 10px;
+    border-radius: 5px;
+    border: 1px solid rgba(177, 158, 134, 1);
+}
+
+.img-column:first-child img {
+    margin: 0;
+}
+
+
+
+
+.product-right-side {
+}
+
+.product-name {
+    margin-bottom: 50px;
+}
+
+
+.product-name-text {
+    display: flex;
+    width: 90%;
+    font-family: 'Cera Pro';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 130%;
+    text-transform: uppercase;
+    color: #636363;
+}
+
+.product-size {
+    font-family: 'Cera Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 140%;
+    color: #898989;
+}
+
+.product-pick-size { 
+    display: flex;
+    margin-bottom: 30px;
+}
+
+.pick-text {
+    margin-right: 35px;
+    font-family: 'Cera Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    color: #898989;
+}
+
+.size-variants .size-btn {
+    width: 69px;
+    height: 26px;
+    border-radius: 5px;
+    border: 1px solid #B19E86;
+    background-color: white;
+}
+
+
+.size-btn {
+    font-family: 'Cera Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 140%;
+    color: #898989;
+}
+
+.size-btn:first-child {
+    margin-right: 11px;
+}
+
+.size-variants .btn-active {
+    background-color: #B19E86;
+    color: white;
+}
+
+.size-style-pick {
+
+}
+
+.product-price {
+    display: flex;
+    align-items: center;
+    margin-bottom: 22px;
+}
+
+.price-text {
+    margin-right: 20px;
+    font-family: 'Cera Pro';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 120%;
+    color: #636363;
+}
+
+.price-bonus {
+    font-family: 'Cera Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 140%;
+    color: #81B751;
+}
+
+.price-bonus span {
+    padding-right: 5px;
+}
+
+/* BUTTONS PRODUCT */
+
+.product-buttons {
+    display: flex;
+    flex-wrap: wrap;
+    width: 90%;
+    margin-bottom: 50px;
+}
+
+.basket {
+    margin: 0 13px 0 0;
+}
+
+.basket button{
+    width: 254px;
+    height: 49px;
+    background: #81B751;
+    border-radius: 5px;
+    border: none;
+    color: #ffffff;
+    font-family: 'Cera Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+}
+
+.one-click button {
+    width: 185px;
+    height: 49px;
+    border: 2px solid #81B751;
+    border-radius: 5px;
+    font-family: 'Cera Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    color: #81B751;
+    background: #ffffff;
+}
+
+.amount-inputs {
+    display: flex;
+    width: 119px;
+    height: 45px;
+    border: 2px solid #B19E86;
+    border-radius: 5px;
+    align-items: center;
+    margin-top: 11px;
+}
+
+.amount-number input::-webkit-outer-spin-button,
+.amount-number input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}
+
+.amount-number input {
+    width: 100%;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+
+.amount-minus, .amount-number, .amount-plus {
+
+    margin: 0 auto;
+}
+
+.amount-minus input, .amount-number input, .amount-plus input {
+    border: none;
+    background: white;
+    font-family: 'Cera Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 120%;
+    color: #B19E86;
+}
+
+
+/* DELIVERY */
+
+.free-delivery {
+    display: flex;
+    align-items: center;
+    margin-bottom: 55px;
+}
+
+
+.free-delivery img {
+    margin-right: 25px;
+}
+
+.free-delivery span {
+    font-family: 'Cera Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    color: #898989;
+    width: 50%;
+}
+
+
+.delivery-to {
+
+}
+
+.delivery-to-msk {
+    margin-bottom: 15px;
+}
+
+
+.delivery-to-msk h1 {
+    font-family: 'Cera Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: #898989;
+}
+
+.postmates {
+    font-family: 'Cera Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    /* or 24px */
+
+
+    color: #898989;
+}
+
+.postmates span{
+    display: block;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* -----------Описание и состав-------------- */
+
+
+.description {
+    width: 100%;
+    height: auto;
+    margin-bottom: 100px;
+
+}
+
+.description-container {
+    max-width: 1170px;
+    margin: 0 auto;
+    padding: 0 15px;
+    display: flex;
+}
+
+.depiction {
+    width: 60%;
+    margin-right: 8%;
+}
+
+.depiction-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 35px;
+}
+
+.depiction-header-name {
+    font-family: 'Cera Pro';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 29px;
+    text-transform: uppercase;
+    color: #636363;
+    margin-right: 20px;
+}
+
+.line {
+    width: 100%;
+    height: 1px;
+    background-color: #B19E86;
+}
+
+.depiction-content span{
+    display: block;
+    font-family: 'Cera Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: #898989;
+    margin-bottom: 30px;
+}
+
+.depiction-content span:last-child {
+    margin: 0;
+}
+
+.compound {
+    height: auto;
+}
+
+.compound-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 35px;
+}
+
+.compound-header-name {
+    font-family: 'Cera Pro';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 29px;
+    text-transform: uppercase;
+    color: #636363;
+    margin-right: 20px;
+}
+
+.compound-content {
+    display: flex;
+    margin-bottom: 14px;
+}
+
+.compound-img {
+    margin-right: 25px;
+}
+
+.compound-content-header-name {
+    margin-bottom: 10px;
+}
+.compound-content-header-name span {
+    font-family: 'Cera Pro';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 120%;
+    color: #898989;
+}
+
+.compound-content-header-text span{
+    font-family: 'Cera Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: #898989;
+}
+
+.composition {
+    margin-top: 30px;
+}
+
+.composition a {
+    text-decoration: none;
+    font-family: 'Cera Pro';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 29px;
+    text-transform: uppercase;
+    color: #81B751;
+    padding-bottom: 3px;
+    border-bottom: 3px solid #81B751;
+}
+
+
+
+
+
+
+/*---------Как использовать------------*/
+
+.use {
+    width: 100%;
+    margin-bottom: 200px;
+}
+
+.use-container {
+    max-width: 1170px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.use-header {
+    display: flex;
+    margin-bottom: 38px;
+    align-items: center;
+    width: 100%;
+}
+
+
+.use-header-text {
+    display: flex;
+    align-items: center;
+    width: auto;
+}
+
+
+.how-to-use{
+    font-family: 'Cera Pro';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 29px;
+    text-transform: uppercase;
+    color: #636363;
+    margin-right: 23px;
+    white-space: nowrap;
+}
+
+.use-content {
+    display: flex;
+}
+.use-content-text{
+    margin-right: 6%;
+}
+
+.use-content-text span{
+    display: block;
+    font-family: 'Cera Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: #898989;
+    margin-bottom: 25px;
+}
+
+.use-content-text span:last-child {
+    margin: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* --------------ADAPTIVE-------------- */
+
+
+@media (max-width: 1024px) {
+    .nav-items img {
+        margin-right: 10px;
+    }
+
+    .nav-bar nav ul li {
+        margin-right: 20px;
+    }
+
+
+}
+
+@media (max-width: 1200px) {
+    .product-img img{
+        height: 270px;
+        width: 270px;
+    }
+
+    .product-buttons {
+        display: block;
+        margin-bottom: 37px;
+    }
+
+    .one-click {
+        margin-top: 11px;
+
+    }
+
+
+    .img-column img {
+        width: 62px;
+        height: 62px;
+    }
+
+    .free-delivery {
+        margin-bottom: 27px;
+    }
+
+    .free-delivery span {
+        width: 100%;
+    }
+}
+
+
+
+
+
+
+
+
+
+@media (max-width: 900px) {
+
+    .none {
+        display: none;
+    }
+
+    .header-top {
+        display: none;
+    }
+
+    .nav-bar nav ul li {
+        margin-right: 10px;
+    }
+
+    .nav-bar {
+        display: none;
+    }
+
+    .header-logo {
+        margin: auto;
+    }
+
+    .header-logo img {
+        height: 37px;
+        width: 123px;
+    }
+
+    /* HAMBURGER */
+
+
+
+    .hamb {
+        display: flex;
+        align-items: center;
+        order: -1;
+    }
+
+
+    .bar {
+        display: block;
+        width: 30px;
+        height: 3px;
+        margin: 6px auto;
+        background-color: #B19E86;
+        transition: 0.2s;
+    }
+
+    .hamb__field {
+        padding: 10px 5px;
+        cursor: pointer;
+        margin-right: 20px;
+    }
+
+    .popup {
+        position: fixed;
+        top: 101px;
+        left: -100%;
+        height: auto;
+        width: 100%;
+        background-color: #ffff;
+        z-index: 100;
+        display: flex;
+        transition: 0.3s;
+        flex-direction: column;
+    }
+
+    .popup.open {
+        left: 0;
+    }
+
+
+    .menu {
+        display: flex;
+        flex-direction: column;
+        height: auto;
+        width: 80%;
+        align-items: flex-start;
+        overflow: auto;
+        margin: 0 auto;
+    }
+
+    .hamb__field.active .bar:nth-child(2) {
+        opacity: 0;
+    }
+
+    .hamb__field.active .bar:nth-child(1) {
+        transform: translateY(9px) rotate(45deg);
+    }
+
+    .hamb__field.active .bar:nth-child(3) {
+        transform: translateY(-9px) rotate(-45deg);
+    }
+
+    body.noscroll {
+        overflow: hidden;
+    }
+
+    .text-mobile-nav {
+        display: flex;
+    }
+
+    .nav-menu {
+        width: 100%;
+    }
+
+    .menu li {
+        margin-top: 17px;
+    }
+
+
+    .menu li a {
+        text-decoration: none;
+        font-family: 'Cera Pro';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 29px;
+        text-transform: uppercase;
+        color: #636363;
+    }
+
+
+    .popup-btn {
+        order: 1;
+        width: 290px;
+        height: 52px;
+        margin: 40px auto;
+        background: #81B751;
+        border-radius: 5px;
+        font-family: 'Cera Pro';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 140%;
+        color: #ffff;
+        border: none;
+    }
+
+    .popup-elements {
+        display: flex;
+        align-items: center;
+        width: 80%;
+        justify-content: space-between;
+        margin: 0 auto;
+        order: 2;
+    }
+
+    .popup-geo {
+        font-family: 'Cera Pro';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 29px;
+        text-transform: uppercase;
+        text-decoration-line: underline;
+        color: #81B751;
+    }
+
+    .popup-tel a{
+        font-family: 'Cera Pro';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 29px;
+        text-decoration-line: underline;
+        color: #81B751;
+        
+    }
+
+
+
+ /* ИКОНКИ ПОРЯДОК */
+
+    
+
+    .icon-nav-mobile-2 {
+        margin-right: 15px;
+    }
+    .icon-nav-mobile-1 {
+        margin: 0;
+    }
+    .icon-nav-mobile-3 {
+        margin: 0;
+    }
+
+
+    .nav-items-left {
+       order: -1;   
+    }
+
+    .nav-items-right img:nth-of-type(2) {
+        margin: 0;
+    }
+
+    .nav-items-right {
+        display: flex;
+    }
+
+
+
+
+
+    /* PRODUCT CARD */
+    .product {
+        margin-bottom: 100px;
+    }
+
+    .product-left-side {
+        margin: 0;
+    }
+
+    .product-pick-size {
+        display: flex;
+        align-items: center;
+    }
+
+    .pick-text span{
+        font-size: 14px;
+    }
+
+    .pick-text {
+        margin-right: 30px;
+        white-space: nowrap;
+    }
+
+    .size-variants {
+        display: flex;
+    }
+
+    .product-container {
+        display: block;
+    }
+
+    .product-img-column {
+        display: none;
+
+    }
+
+    .product-img {
+        margin: 0 auto;
+    }
+
+    .img-product img{
+        height: 280px;
+        width: 280px;
+    }
+
+    .text-rout a {
+        font-size: 14px;
+    }
+
+    .text-rout span {
+        font-size: 14px;
+    }
+
+    .product-name-text {
+        font-size: 19px;
+        width: 100%;
+    }
+
+    .product-name {
+        margin-bottom: 18px;
+    }
+
+    .product-size {
+        font-size: 16px;
+    }
+
+    .product-pick-size {
+        margin-bottom: 25px;
+    }
+
+    .product-price {
+        margin-bottom: 35px;
+    }
+
+    .product-right-side .product-buttons {
+        display: flex;
+        max-width: 400px;
+    }
+
+    .basket button{
+        max-width: 208px;
+    }
+
+    .product-buttons {
+        width: 100%;
+    }
+
+    .one-click button {
+        width: 100%;
+    }
+
+    .amount-inputs {
+        margin: 0;
+    }
+
+    .one-click {
+        order: 1;
+        max-width: 380px;
+        width: 100%;
+    }
+
+    /* DESCRIPTION */
+
+    .description {
+        display: block;
+    }
+
+    .description-container {
+        display: block;
+    }
+
+    .depiction {
+        display: block;
+        width: 100%;
+        margin-bottom: 63px;
+    }
+
+    .compound-content-header-text span{
+        font-size: 14px;
+    }
+
+    .composition a{
+        margin: 0 auto;
+    }
+
+
+
+    .use-content-img {
+        display: none;
+    }
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
